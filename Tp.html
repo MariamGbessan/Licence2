@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website Design - easy Tutorials</title>
+    <link rel="stylesheet" href="Tp.Css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Ton CSS -->
+  <link rel="stylesheet" href="Tp.Css">
+</head>
+<script>
+    var navLinks = document.getElementById("nav-links");
+
+    function showMenu() {
+        navLinks.classList.add("active");
+    }
+
+    function hideMenu() {
+        navLinks.classList.remove("active");
+    }
+</script>
+
+<body>
+    <section class="header"> 
+        <nav>
+            <a href="Tp.html"><img src="Image/logo.png"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+         <div class="text-box"> 
+            <h1>World's Biggest university</h1>
+            <p>Marketing website is now one of the easiest thing in the wolrd. You just need to learn HTML,CSS,<br>Javascript and you are good to go
+            </p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+         </div>
+         </section>
+         <!-- Course -->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Molestiae quae quaerat obcaecati expedita minima unde quo soluta tempora sit explicabo!
+                Similique laboriosam dolorum corporis ad non quam quisquam delectus odio.
+            </p>
+        </div>
+
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Molestiae quae quaerat obcaecati expedita minima unde quo soluta tempora sit explicabo!
+                Similique laboriosam dolorum corporis ad non quam quisquam delectus odio.
+            </p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Molestiae quae quaerat obcaecati expedita minima unde quo soluta tempora sit explicabo!
+                Similique laboriosam dolorum corporis ad non quam quisquam delectus odio.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Campus -->
+
+<section class="Campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="Campus-col">
+            <img src="Image/london.png">
+            <div class="layer"> 
+                <h3>LONDON</h3>
+            </div>
+            </div>
+            <div class="Campus-col">
+                <img src="Image/newyork.png">
+                <div class="layer"> 
+                    <h3>NEW YORK</h3>
+                </div>
+                </div>
+                <div class="Campus-col">
+                    <img src="Image/washington.png">
+                    <div class="layer"> 
+                        <h3>WASHINGTON</h3>
+                    </div>
+                    </div>
+</div>
+<section class="facilities">
+  <h1>Our Facilities</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+  <!-- Regroupe les 3 colonnes dans UNE seule div .row -->
+  <div class="row">
+    <div class="facilities-col">
+      <img src="Image/library.png" alt="Library">
+      <h3>World Class Library</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="Image/basketball.png" alt="Play Ground">
+      <h3>Largest Play Ground</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="facilities-col">
+      <img src="Image/cafeteria.png" alt="Cafeteria">
+      <h3>Tasty and Healthy Food</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+  </div>
+</section>
+
+ <!-- testimonials -->
+
+  <section class="testimonials">
+    <h1>What Our Student Says</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+  <div class="row">
+  <div class="testimonials-col">
+    <img src="Image/user1.jpg">
+    <div> 
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quae quaerat obcaecati expedita minima unde quo soluta tempora sit explicabo! Similique laboriosam dolorum corporis ad non quam quisquam delectus odio.</p>
+        <h3>Christine Berkley</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+ </div>
+ <div class="testimonials-col">
+    <img src="Image/user2.jpg">
+    <div> 
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quae quaerat obcaecati expedita minima unde quo soluta tempora sit explicabo! Similique laboriosam dolorum corporis ad non quam quisquam delectus odio.</p>
+        <h3>David Byer</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+ </div>
+</div>
+
+  </section>
+  <!-- Call To Action -->
+   <section class="cta">
+    <h1>Enroll For our Various Online Courses Anywhere From The World</h1>
+    <a href="" class="hero-btn">Contact US</a>
+
+
+   </section>
+  
+<!-- Footer -->
+
+ <section class="footer">
+    <h4>About US</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda laudantium excepturi velit obcaecati fugit nisi consequuntur placeat hic suscipit labore et <br> voluptates quo accusamus, reiciendis ea commodi in quasi iure!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with  <i class="fa fa-heart-o"></i>by Easy Tuorials </p>
+ </section>
+
+
+    <!-- Javascript for Toggle Menu -->
+   <script>
+var nav-links = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+   </script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
